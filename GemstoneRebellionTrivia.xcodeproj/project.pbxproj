@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		8888B0882178D95D00D89D4E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8888B0872178D95D00D89D4E /* AppDelegate.swift */; };
-		8888B08A2178D95D00D89D4E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8888B0892178D95D00D89D4E /* ViewController.swift */; };
 		8888B08D2178D95D00D89D4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8888B08B2178D95D00D89D4E /* Main.storyboard */; };
 		8888B08F2178D95E00D89D4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8888B08E2178D95E00D89D4E /* Assets.xcassets */; };
 		8888B0922178D95E00D89D4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8888B0902178D95E00D89D4E /* LaunchScreen.storyboard */; };
+		8888B09A217A2B8600D89D4E /* TriviaQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8888B099217A2B8600D89D4E /* TriviaQuestion.swift */; };
+		888943C021834F99005217BA /* addQuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888943BF21834F99005217BA /* addQuestionViewController.swift */; };
+		888943C221834FE5005217BA /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888943C121834FE5005217BA /* QuizViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8888B0842178D95D00D89D4E /* GemstoneRebellionTrivia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GemstoneRebellionTrivia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8888B0872178D95D00D89D4E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8888B0892178D95D00D89D4E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8888B08C2178D95D00D89D4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8888B08E2178D95E00D89D4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8888B0912178D95E00D89D4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8888B0932178D95E00D89D4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8888B099217A2B8600D89D4E /* TriviaQuestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaQuestion.swift; sourceTree = "<group>"; };
+		888943BF21834F99005217BA /* addQuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addQuestionViewController.swift; sourceTree = "<group>"; };
+		888943C121834FE5005217BA /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				8888B0872178D95D00D89D4E /* AppDelegate.swift */,
-				8888B0892178D95D00D89D4E /* ViewController.swift */,
+				888943C121834FE5005217BA /* QuizViewController.swift */,
+				888943BF21834F99005217BA /* addQuestionViewController.swift */,
+				8888B099217A2B8600D89D4E /* TriviaQuestion.swift */,
 				8888B08B2178D95D00D89D4E /* Main.storyboard */,
 				8888B08E2178D95E00D89D4E /* Assets.xcassets */,
 				8888B0902178D95E00D89D4E /* LaunchScreen.storyboard */,
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8888B08A2178D95D00D89D4E /* ViewController.swift in Sources */,
+				8888B09A217A2B8600D89D4E /* TriviaQuestion.swift in Sources */,
+				888943C021834F99005217BA /* addQuestionViewController.swift in Sources */,
 				8888B0882178D95D00D89D4E /* AppDelegate.swift in Sources */,
+				888943C221834FE5005217BA /* QuizViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
